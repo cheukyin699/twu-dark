@@ -172,6 +172,83 @@
     }
     /* Content */
     
+    table#form td.submit,
+    .form-buttons,
+    .path-admin .buttons,
+    #fitem_id_submitbutton,
+    #fgroup_id_buttonar {
+        background: transparent;
+    }
+    .moodleSkin td.mceToolbar,
+    .moodleSkin td.mceStatusbar,
+    .moodleSkin .mceMenuItemTitle a,
+    .moodleSkin table,
+    .moodleSkin tbody,
+    .moodleSkin a,
+    .moodleSkin img,
+    .moodleSkin tr,
+    .moodleSkin div,
+    .moodleSkin td,
+    .moodleSkin iframe,
+    .moodleSkin span,
+    .moodleSkin *,
+    .moodleSkin .mceText,
+    .moodleSkin .mceListBox .mceText,
+    .moodleSkin .mceToolbar td + td {
+        background: #444;
+        color: #ddd;
+    }
+    .moodleSkin table.mceListBoxEnabled:hover .mceText,
+    .moodleSkin .mceListBoxHover .mceText,
+    .moodleSkin .mceListBoxSelected .mceText,
+    .moodleSkin a.mceButtonEnabled:hover {
+        background: #444;
+    }
+    .moodleSkin .mceMenu {
+        border: 1px solid #444;
+    }
+    .mceMenuItemEnabled a:hover {
+        background: #555 !important;
+    }
+    .filemanager .fp-navbar,
+    .filepicker-filelist,
+    .filemanager-container,
+    .fp-viewbar,
+    .fp-toolbar .fp-btn-add,
+    .fp-toolbar .fp-btn-download,
+    .fp-toolbar .fp-btn-mkdir,
+    .fp-toolbar .fp-tb-help,
+    .fp-toolbar .fp-tb-manage,
+    .fp-toolbar .fp-tb-logout,
+    .fp-toolbar .fp-tb-refresh,
+    .fp-viewbar a {
+        background: #444;
+        border: none;
+    }
+    .fp-viewbar a.checked,
+    .fp-viewbar a:active {
+        background: #555;
+    }
+    .dndupload-arrow {
+        filter: invert(70%);
+    }
+    span.mceText {
+        background: transparent !important;
+        color: #ddd !important;
+    }
+    .moodleSkin .mceToolbar .mceGroupEnd,
+    .moodleSkin .mceMenuItemTitle a {
+        border: none;
+    }
+    .moodleSkin .mceListBox .mceOpen {
+        filter: invert(100%);
+    }
+    .moodleSkin table.mceLayout,
+    .moodleSkin .mceIframeContainer,
+    .moodleSkin table.mceLayout tr.mceLast td,
+    .moodleSkin .mceToolbar td + td {
+        border: 1px solid #444;
+    }
     .collapsibleregioncaption {
         color: #ccc;
     }
