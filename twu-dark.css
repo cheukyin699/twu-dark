@@ -380,7 +380,7 @@
     input[type="button"],
     input[type="submit"],
     input[type="reset"] {
-        background: linear-gradient(to bottom, #555, #444);
+        background: linear-gradient(to bottom, #4a4a4a, #444);
         color: #ccc;
         border: none;
         text-shadow: none;
@@ -397,7 +397,7 @@
     input[type="submit"]:focus,
     input[type="reset"]:focus {
     	color: #ccc;
-        background: linear-gradient(to bottom, #5a5a5a, #555);
+        background: linear-gradient(to bottom, #444, #333);
     }
     .fp-select .fp-hr {
         background: none;
