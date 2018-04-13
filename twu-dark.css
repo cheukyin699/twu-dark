@@ -353,4 +353,71 @@
     .generaltable td {
         border-top: 1px solid #4a4a4a;
     }
+    .fp-iconview .fp-filename-field .fp-filename {
+        background: transparent;
+    }
+    .fp-iconview .fp-thumbnail {
+        border: none;
+    }
+    .fp-iconview .fp-thumbnail img {
+        border: none;
+        box-shadow: none;
+    }
+    .moodle-dialogue-base .moodle-dialogue-wrap {
+        background: #555;
+        border: none;
+    }
+    .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
+    .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+        background: #333;
+        border: none;
+    }
+    .moodle-dialogue-base .closebutton {
+        filter: invert(80%);
+    }
+    button,
+    input.form-submit,
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+        background: linear-gradient(to bottom, #555, #444);
+        color: #ccc;
+        border: none;
+        text-shadow: none;
+        box-shadow: none;
+    }
+    button:hover,
+    input.form-submit:hover,
+    input[type="button"]:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    button:focus,
+    input.form-submit:focus,
+    input[type="button"]:focus,
+    input[type="submit"]:focus,
+    input[type="reset"]:focus {
+    	color: #ccc;
+        background: linear-gradient(to bottom, #5a5a5a, #555);
+    }
+    .fp-select .fp-hr {
+        background: none;
+        border: none;
+    }
+    .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd {
+        color: #ccc;
+    }
+    .fp-select .fp-thumbnail {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .fp-select .fp-thumbnail img {
+        border: none;
+    }
+    .btn:first-child {
+        color: #00b5cc !important;
+    }
+    .btn:first-child:hover {
+        color: white !important;
+    }
 }
