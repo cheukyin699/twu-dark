@@ -420,4 +420,8 @@
     .btn:first-child:hover {
         color: white !important;
     }
+    /* Marking Tools */
+    .path-mod-assign .gradingtable tr.unselectedrow td {
+    	background: transparent;
+    }
 }
