@@ -421,7 +421,8 @@
         color: white !important;
     }
     /* Marking Tools */
-    .path-mod-assign .gradingtable tr.unselectedrow td {
+    .path-mod-assign .gradingtable tr.unselectedrow td,
+    .path-mod-assign [data-region="grade-panel"] {
     	background: transparent;
     }
 }
