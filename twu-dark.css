@@ -73,7 +73,9 @@
         background: #444;
     }
     #above-header,
-    footer#page-footer {
+    footer#page-footer,
+    #page-footer,
+    #page-footer p {
         background: #111;
         border: none;
     }
@@ -396,7 +398,7 @@
     input[type="button"]:focus,
     input[type="submit"]:focus,
     input[type="reset"]:focus {
-    	color: #ccc;
+        color: #ccc;
         background: linear-gradient(to bottom, #444, #333);
     }
     .fp-select .fp-hr {
@@ -421,8 +423,9 @@
         color: white !important;
     }
     /* Marking Tools */
+    
     .path-mod-assign .gradingtable tr.unselectedrow td,
     .path-mod-assign [data-region="grade-panel"] {
-    	background: transparent;
+        background: transparent;
     }
 }
